@@ -22,7 +22,7 @@ Registrar nuevo tipo
 <table class="table table-light">
     <thead class="thead-dark">
         <tr>
-            <th>#</th>
+            <th>N°</th>
             <th>Nombres</th>
             <th>Acciones</th>
         </tr>

@@ -18,7 +18,7 @@ class TipoController extends Controller
      */
     public function index()
     {
-     $datos['tipos']=Tipo::paginate(5);
+     $datos['tipos']=Tipo::paginate(2);
      return view('tipo.index',$datos);
         //return view('tipo.index');
 

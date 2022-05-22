@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('tipos', function (Blueprint $table) {
             $table->engine="InnoDB";
             $table->bigIncrements('id');
-            $table->string('Nombre');
+            $table->string('Nombres');
             $table->timestamps();
         });
     }

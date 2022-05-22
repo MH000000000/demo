@@ -17,7 +17,7 @@ return new class extends Migration
             $table->engine="InnoDB";
             $table->bigIncrements('id');
             $table->bigInteger('tipo_id')->unsigned();
-            $table->string('Nombre');
+            $table->string('Nombres');
             $table->string('ApellidoPaterno');
             $table->string('ApellidoMaterno');
             $table->string('Imagen');

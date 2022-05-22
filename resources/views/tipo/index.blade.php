@@ -31,6 +31,7 @@ Registrar nuevo tipo
         @foreach ($tipos as $tipo)
         <tr>
             <td>{{$tipo->id}}</td>
+            
             <td>{{$tipo->Nombres}}</td>
            
             <td>
